@@ -203,7 +203,7 @@ const App = () => {
                 />
                 <button 
                   type="submit" 
-                  className={`px-6 py-6 mx-auto ${darkMode ? 'bg-gray-800 hover:bg-fuchsia-500' : 'bg-fuchsia-300 hover:bg-fuchsia-500'} text-white font-medium transition-colors cursor-pointer !rounded-button whitespace-nowrap`}
+                  className={`px-6 py-6 mx-auto ${darkMode ? 'bg-gray-800 hover:bg-fuchsia-500 active:bg-fuchsia-500' : 'bg-fuchsia-300 hover:bg-fuchsia-500 active:bg-fuchsia-500'} text-white font-medium transition-colors cursor-pointer !rounded-button whitespace-nowrap`}
                 >
                   Search
                 </button>
